@@ -1,0 +1,13 @@
+{
+    "binary json filename"  : "experiments/tiny-AES-tricore/jsons/binary-details-tinyAES.json",
+    "mode"                  : "fault",
+    "output directory name" : "experiments/tiny-AES-tricore/outputs/",
+    "threads"               : "1",
+    "fault model filename"  : "experiments/tiny-AES-tricore/faultmodels/small-tricore.txt",
+    "checkpoints"           : "no",
+    "number of checkpoints" : "0",
+    "equivalents"           : "no",
+    "timeit"                : "no",
+    "max instructions"      : "30000",
+    "display disassembly"   : "no"
+}   

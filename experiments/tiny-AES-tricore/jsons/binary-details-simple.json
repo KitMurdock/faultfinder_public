@@ -1,0 +1,58 @@
+{
+    "comment" : "Everything in the comment is not used - other than by the humans",
+    "binary filename": "experiments/tricore/bins/SimpleTricoreExample.elf",
+    "unicorn arch"          :"tricore",
+    "unicorn mode"          :"little endian",
+    "capstone arch"         :"none",
+    "capstone mode"         :"none",
+    "memory address"        : "0x80000000",
+    "memory size"           :   "0x044000",
+    "other memory"          :
+    [
+        {
+            "address"   :   "0x200000",
+            "size"      :      "0x4000"
+        }  
+    ],
+    "code offset"   :       "0xF48",
+    "stack address" :  "0x80800000",
+    "stack size"    :  "0x00080000",
+    "code start"    :       "0x1e6",
+    "code end"      :       "0x1e8",
+    "fault start"   :       "0x1e6",
+    "fault end"     :       "0x1e8",
+    "set memory"    : 
+    [
+    
+    ],
+    "set registers"   :
+    [
+        {
+            "reg"          : "d0",
+            "reg value"    : "0x11"
+        },
+        {
+            "reg"          : "d15",
+            "reg value"    : "0x23"
+        }
+    ],
+    "outputs"    : 
+    [  
+        {   
+            "comment"       : "imul output",
+            "location"      : "register",
+            "address"       : "",
+            "register"      : "d0",
+            "length"        : "",
+            "offset"        : "not used"
+        }
+    ],
+    "skips":
+    [
+    ],
+    "hard stops":
+    [
+    ],
+    "timeout":"0",
+    "filter results": "no"
+}   

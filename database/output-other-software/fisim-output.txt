@@ -1,0 +1,364 @@
+TransientNopInstructionModel 80001278: BL #0x80000410 -> NOP bl1_entry + 12 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:24
+TransientNopInstructionModel 8000042C: STR r2, [r3, #4] -> NOP otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientNopInstructionModel 80001280: BL #0x800003b0 -> NOP bl1_entry + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientNopInstructionModel 800003B8: MOV r4, r0 -> NOP otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientNopInstructionModel 800003C4: MOV r0, #0x10 -> NOP otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientNopInstructionModel 800003C8: BL #0x8000032c -> NOP otp_is_sec_boot_enabled + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientNopInstructionModel 80000344(1/5): LDR r3, [r3] -> NOP otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientNopInstructionModel 80000348(1/5): TST r3, #2 -> NOP otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientNopInstructionModel 80000354(1/5): MOV r2, #2 -> NOP otp_read32 + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientNopInstructionModel 80000358(1/5): STR r0, [r3, #8] -> NOP otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientNopInstructionModel 80000360(1/5): STR r2, [r3, #4] -> NOP otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientNopInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> NOP otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientNopInstructionModel 80000390(1/5): STR r3, [r1] -> NOP otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientNopInstructionModel 800003CC: CMP r0, #0 -> NOP otp_is_sec_boot_enabled + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientNopInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> NOP otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientNopInstructionModel 800003D8: STRBNE r3, [r4] -> NOP otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientNopInstructionModel 80001264: POP {fp} -> NOP flash_load_img + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientNopInstructionModel 80000498: POP {fp} -> NOP MD5_Init + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientNopInstructionModel 800012E0: CMP r3, #0 -> NOP bl1_entry + 116 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientNopInstructionModel 800012E4: BNE #0x800012f8 -> NOP bl1_entry + 120 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientNopInstructionModel 800002FC: BNE #0x800002e8 -> NOP memcmp + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:7
+TransientSingleBitFlipInstructionModel 80000000: LDR r4, [pc, #0x24] -> LDR r4, [pc, #0x24]! _start + 0 C:\Users\micro\source\repos\FiSim\Content\Example\src\aarch32\entry.S:4
+TransientSingleBitFlipInstructionModel 80000000: LDR r4, [pc, #0x24] -> LDR r4, [pc], #0x24 _start + 0 C:\Users\micro\source\repos\FiSim\Content\Example\src\aarch32\entry.S:4
+TransientSingleBitFlipInstructionModel 80000004: LDR r5, [pc, #0x24] -> LDR r5, [pc, #0x24]! _start + 4 C:\Users\micro\source\repos\FiSim\Content\Example\src\aarch32\entry.S:5
+TransientSingleBitFlipInstructionModel 80000004: LDR r5, [pc, #0x24] -> LDR r5, [pc], #0x24 _start + 4 C:\Users\micro\source\repos\FiSim\Content\Example\src\aarch32\entry.S:5
+TransientSingleBitFlipInstructionModel 8000000C: BEQ #0x80000024 -> BEQ #0x8000002c _start + 12 C:\Users\micro\source\repos\FiSim\Content\Example\src\aarch32\entry.S:8
+TransientSingleBitFlipInstructionModel 80000024: BL #0x8000126c -> BL #0x8000128c boot + 0 C:\Users\micro\source\repos\FiSim\Content\Example\src\aarch32\entry.S:21
+TransientSingleBitFlipInstructionModel 80000024: BL #0x8000126c -> BL #0x800012ec boot + 0 C:\Users\micro\source\repos\FiSim\Content\Example\src\aarch32\entry.S:21
+TransientSingleBitFlipInstructionModel 80001278: BL #0x80000410 -> BLGT #0x80000410 bl1_entry + 12 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:24
+TransientSingleBitFlipInstructionModel 80001278: BL #0x80000410 -> BLVS #0x80000410 bl1_entry + 12 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:24
+TransientSingleBitFlipInstructionModel 80000418: MOV r3, #0x12000000 -> MOV r3, #0x32000000 otp_init + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:20
+TransientSingleBitFlipInstructionModel 80000428: MOV r2, #1 -> MOV r2, #3 otp_init + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 80000428: MOV r2, #1 -> ADC r2, r0, #1 otp_init + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000042C: STR r2, [r3, #4] -> STR r2, [r3] otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000042C: STR r2, [r3, #4] -> STR r2, [r3, #0xc] otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000042C: STR r2, [r3, #4] -> STR r2, [fp, #4] otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000042C: STR r2, [r3, #4] -> LDR r2, [r3, #4] otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000042C: STR r2, [r3, #4] -> STR r2, [r3], #4 otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000042C: STR r2, [r3, #4] -> ORR r2, r3, r4 otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000042C: STR r2, [r3, #4] -> STRGT r2, [r3, #4] otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000042C: STR r2, [r3, #4] -> STRVS r2, [r3, #4] otp_init + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:22
+TransientSingleBitFlipInstructionModel 8000127C: SUB r0, fp, #0xc1 -> SUB r0, fp, #0xc0 bl1_entry + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 8000127C: SUB r0, fp, #0xc1 -> SUB r0, fp, #0xc3 bl1_entry + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 8000127C: SUB r0, fp, #0xc1 -> SUB r0, fp, #0xd1 bl1_entry + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 8000127C: SUB r0, fp, #0xc1 -> SUB r0, fp, #0xe1 bl1_entry + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 8000127C: SUB r0, fp, #0xc1 -> SUB r0, fp, #0x81 bl1_entry + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 8000127C: SUB r0, fp, #0xc1 -> SUB r0, fp, #0x41 bl1_entry + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 8000127C: SUB r0, fp, #0xc1 -> SUB r0, pc, #0xc1 bl1_entry + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 8000127C: SUB r0, fp, #0xc1 -> SUB r0, fp, r1, asr #1 bl1_entry + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 80001280: BL #0x800003b0 -> BLGT #0x800003b0 bl1_entry + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 80001280: BL #0x800003b0 -> BLVS #0x800003b0 bl1_entry + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:26
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> MOV r4, r4 otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> MOV r5, r0 otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> MOV r6, r0 otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> MOV r0, r0 otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> MOV ip, r0 otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> <invalid instruction> otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> STMIB r0!, {lr} otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> MOVGT r4, r0 otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003B8: MOV r4, r0 -> MOVVS r4, r0 otp_is_sec_boot_enabled + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:78
+TransientSingleBitFlipInstructionModel 800003C0: SUB r1, fp, #0x10 -> SUB r1, fp, #0x11 otp_is_sec_boot_enabled + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C0: SUB r1, fp, #0x10 -> SUB r1, fp, #0x12 otp_is_sec_boot_enabled + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C0: SUB r1, fp, #0x10 -> SUB r1, fp, #0x14 otp_is_sec_boot_enabled + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C0: SUB r1, fp, #0x10 -> SUB r1, fp, #0x30 otp_is_sec_boot_enabled + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C0: SUB r1, fp, #0x10 -> SUB r1, fp, #0x50 otp_is_sec_boot_enabled + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C0: SUB r1, fp, #0x10 -> SUB r1, fp, #0x90 otp_is_sec_boot_enabled + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C0: SUB r1, fp, #0x10 -> SUB r1, fp, #16, #16 otp_is_sec_boot_enabled + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C0: SUB r1, fp, #0x10 -> SUB r1, pc, #0x10 otp_is_sec_boot_enabled + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #0x11 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #0x12 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #0x14 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #0x18 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #0 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #0x30 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #0x50 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #0x90 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #16, #2 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #16, #4 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #16, #8 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r0, #16, #16 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r1, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r2, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r4, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOV r8, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> ORR r0, r0, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MVN r0, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> ADC r0, r0, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> LSL r0, r0, r0 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOVGT r0, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C4: MOV r0, #0x10 -> MOVVS r0, #0x10 otp_is_sec_boot_enabled + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C8: BL #0x8000032c -> BL #0x800003ac otp_is_sec_boot_enabled + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C8: BL #0x8000032c -> B #0x8000032c otp_is_sec_boot_enabled + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C8: BL #0x8000032c -> BLGT #0x8000032c otp_is_sec_boot_enabled + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003C8: BL #0x8000032c -> BLVS #0x8000032c otp_is_sec_boot_enabled + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 80000334(1/5): MOV r3, #0x12000000 -> MOV r3, #0x32000000 otp_read32 + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:30
+TransientSingleBitFlipInstructionModel 80000334(1/5): MOV r3, #0x12000000 -> MOV r1, #0x12000000 otp_read32 + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:30
+TransientSingleBitFlipInstructionModel 8000033C(1/5): STR r3, [fp, #-8] -> STR r1, [fp, #-8] otp_read32 + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:30
+TransientSingleBitFlipInstructionModel 8000033C(1/5): STR r3, [fp, #-8] -> STR fp, [fp, #-8] otp_read32 + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:30
+TransientSingleBitFlipInstructionModel 80000340(1/5): LDR r3, [fp, #-8] -> LDR r3, [fp, #-0] otp_read32 + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000340(1/5): LDR r3, [fp, #-8] -> LDR r1, [fp, #-8] otp_read32 + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000340(1/5): LDR r3, [fp, #-8] -> LDR r3, [fp, -r8] otp_read32 + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDR r3, [r3, #4] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDR r3, [r3, #8] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDR r2, [r3] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDR r1, [r3] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDR r7, [r3] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDR r3, [r1] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDR r3, [fp] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> STR r3, [r3] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> ORRS r3, r3, r0 otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDRGT r3, [r3] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000344(1/5): LDR r3, [r3] -> LDRVS r3, [r3] otp_read32 + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r3, #0 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r3, #0x80000000 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r3, #0x20000000 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r3, #0x2000000 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r3, #0x20000 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r2, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r1, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r7, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST fp, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> MOVW r0, #0x3002 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TEQ r3, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> CMP r3, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> ORRS r0, r3, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> ANDS r0, r3, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TST r3, r2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TSTGT r3, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000348(1/5): TST r3, #2 -> TSTVS r3, #2 otp_read32 + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 8000034C(1/5): BEQ #0x800003a0 -> BNE #0x800003a0 otp_read32 + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 8000034C(1/5): BEQ #0x800003a0 -> BHS #0x800003a0 otp_read32 + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 8000034C(1/5): BEQ #0x800003a0 -> BHI #0x800003a0 otp_read32 + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:32
+TransientSingleBitFlipInstructionModel 80000350(1/5): LDR r3, [fp, #-8] -> LDR r3, [fp, #-0] otp_read32 + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000350(1/5): LDR r3, [fp, #-8] -> LDR r3, [fp, -r8] otp_read32 + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000354(1/5): MOV r2, #2 -> MOV r2, #3 otp_read32 + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000354(1/5): MOV r2, #2 -> MOV r0, #2 otp_read32 + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000354(1/5): MOV r2, #2 -> MOV r6, #2 otp_read32 + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000354(1/5): MOV r2, #2 -> MOV sl, #2 otp_read32 + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000354(1/5): MOV r2, #2 -> MOV r2, r2 otp_read32 + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000354(1/5): MOV r2, #2 -> MOVVS r2, #2 otp_read32 + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r0, [r3, #0xc] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r0, [r3] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r1, [r3, #8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r2, [r3, #8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r4, [r3, #8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r8, [r3, #8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r0, [r1, #8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r0, [fp, #8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> LDR r0, [r3, #8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r0, [r3], #8 otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STR r0, [r3, r8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> ORR r0, r3, r8 otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 80000358(1/5): STR r0, [r3, #8] -> STRVS r0, [r3, #8] otp_read32 + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:36
+TransientSingleBitFlipInstructionModel 8000035C(1/5): LDR r3, [fp, #-8] -> LDR r3, [fp, #-0] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C(1/5): LDR r3, [fp, #-8] -> LDR r1, [fp, #-8] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C(1/5): LDR r3, [fp, #-8] -> LDR r3, [fp, -r8] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000360(1/5): STR r2, [r3, #4] -> STR r2, [r3] otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000360(1/5): STR r2, [r3, #4] -> STR r2, [r3, #0xc] otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000360(1/5): STR r2, [r3, #4] -> STR r2, [r1, #4] otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000360(1/5): STR r2, [r3, #4] -> STR r2, [fp, #4] otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000360(1/5): STR r2, [r3, #4] -> LDR r2, [r3, #4] otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000360(1/5): STR r2, [r3, #4] -> STR r2, [r3], #4 otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000360(1/5): STR r2, [r3, #4] -> ORR r2, r3, r4 otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000360(1/5): STR r2, [r3, #4] -> STRVS r2, [r3, #4] otp_read32 + 52 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 80000364(1/10): LDR r3, [fp, #-8] -> LDR r1, [fp, #-8] otp_read32 + 56 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:39
+TransientSingleBitFlipInstructionModel 80000370(1/10): BNE #0x80000364 -> BNE #0x80000324 otp_read32 + 68 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:39
+TransientSingleBitFlipInstructionModel 8000037C(1/5): TST r3, #1 -> TST r3, #3 otp_read32 + 80 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:41
+TransientSingleBitFlipInstructionModel 8000037C(1/5): TST r3, #1 -> TEQ r3, #1 otp_read32 + 80 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:41
+TransientSingleBitFlipInstructionModel 8000037C(1/5): TST r3, #1 -> CMP r3, #1 otp_read32 + 80 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:41
+TransientSingleBitFlipInstructionModel 8000037C(1/5): TST r3, #1 -> ORRS r0, r3, #1 otp_read32 + 80 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:41
+TransientSingleBitFlipInstructionModel 80000380(1/5): BNE #0x800003a0 -> BEQ #0x800003a0 otp_read32 + 84 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:41
+TransientSingleBitFlipInstructionModel 80000380(1/5): BNE #0x800003a0 -> BPL #0x800003a0 otp_read32 + 84 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:41
+TransientSingleBitFlipInstructionModel 80000380(1/5): BNE #0x800003a0 -> BLS #0x800003a0 otp_read32 + 84 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:41
+TransientSingleBitFlipInstructionModel 80000384(1/5): LDR r3, [fp, #-8] -> LDR r3, [fp, #-0] otp_read32 + 88 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000384(1/5): LDR r3, [fp, #-8] -> LDR r3, [fp, -r8] otp_read32 + 88 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000388(1/5): MOV r0, #1 -> MOV r0, #0 otp_read32 + 92 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:47
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDR r3, [r3, #8] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDR r3, [r3, #4] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDR r2, [r3, #0xc] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDR r7, [r3, #0xc] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDR r3, [r1, #0xc] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDR r3, [fp, #0xc] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> STR r3, [r3, #0xc] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDRB r3, [r3, #0xc] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDR r3, [r3], #0xc otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDR r3, [r3, ip] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> ORRS r3, r3, ip otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDRGT r3, [r3, #0xc] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000038C(1/5): LDR r3, [r3, #0xc] -> LDRVS r3, [r3, #0xc] otp_read32 + 96 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r1, #1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r1, #2] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r1, #4] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r1, #8] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r1, #0x20] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r1, #0x40] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r1, #0x80] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r2, [r1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r1, [r1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r7, [r1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR fp, [r1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r5] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> LDR r3, [r1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STRB r3, [r1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STR r3, [r1, r0] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> ORR r3, r1, r0 otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STRGT r3, [r1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 80000390(1/5): STR r3, [r1] -> STRVS r3, [r1] otp_read32 + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:45
+TransientSingleBitFlipInstructionModel 8000039C(1/5): BX lr -> STMDB pc!, {r1, r2, r3, r4, r8, sb, sl, fp, ip, sp, lr, pc} otp_read32 + 112 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:48
+TransientSingleBitFlipInstructionModel 800003CC: CMP r0, #0 -> CMP r0, #1 otp_is_sec_boot_enabled + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003CC: CMP r0, #0 -> CMP r8, #0 otp_is_sec_boot_enabled + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003CC: CMP r0, #0 -> MOVT r0, #0 otp_is_sec_boot_enabled + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003CC: CMP r0, #0 -> TST r0, #0 otp_is_sec_boot_enabled + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003CC: CMP r0, #0 -> CMP r0, r0 otp_is_sec_boot_enabled + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003CC: CMP r0, #0 -> CMPGT r0, #0 otp_is_sec_boot_enabled + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003CC: CMP r0, #0 -> CMPVS r0, #0 otp_is_sec_boot_enabled + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:80
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x11] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x12] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x14] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x18] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x30] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x50] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x90] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x110] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x210] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x410] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #-0x810] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRBNE r3, [fp, #-0x10] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> LDRNE r3, [fp, #0x10] otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D0: LDRNE r3, [fp, #-0x10] -> TSTNE fp, r0, lsl r0 otp_is_sec_boot_enabled + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, r2, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, r1, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, r7, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, fp, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, r3, #0x10, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, r3, #0x13, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, r3, #0x15, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, r3, #0x19, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r3, r3, #1, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r2, r3, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r1, r3, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXNE r7, r3, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> USATNE r3, #0, r3, asr #0x11 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXEQ r3, r3, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXLO r3, r3, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D4: UBFXNE r3, r3, #0x11, #1 -> UBFXLS r3, r3, #0x11, #1 otp_is_sec_boot_enabled + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, #1] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, #2] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, #4] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, #8] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, #0x10] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, #0x20] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, #0x40] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, #0x80] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r7, [r4] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r5] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> LDRBNE r3, [r4] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBNE r3, [r4, r0] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> BICNE r3, r4, r0 otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBEQ r3, [r4] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBLO r3, [r4] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 800003D8: STRBNE r3, [r4] -> STRBLS r3, [r4] otp_is_sec_boot_enabled + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:84
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0xc0] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0xc3] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0xd1] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0xe1] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x81] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x41] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x1c1] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x2c1] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x4c1] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001284: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x8c1] bl1_entry + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001288: CMP r3, #0 -> CMP r3, #1 bl1_entry + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001288: CMP r3, #0 -> CMP r7, #0 bl1_entry + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001288: CMP r3, #0 -> TST r3, #0 bl1_entry + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001288: CMP r3, #0 -> CMP r3, r0 bl1_entry + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 8000128C: BEQ #0x800012e8 -> BNE #0x800012e8 bl1_entry + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 8000128C: BEQ #0x800012e8 -> BHS #0x800012e8 bl1_entry + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 8000128C: BEQ #0x800012e8 -> BHI #0x800012e8 bl1_entry + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:28
+TransientSingleBitFlipInstructionModel 80001294: SUB r6, fp, #0xbc -> SUB r6, fp, #0xac bl1_entry + 40 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:34
+TransientSingleBitFlipInstructionModel 80001298: SUB r4, fp, #0x9c -> SUB r4, fp, #0xbc bl1_entry + 44 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:38
+TransientSingleBitFlipInstructionModel 8000129C: SUB r5, fp, #0xac -> SUB r5, fp, #0xbc bl1_entry + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:40
+TransientSingleBitFlipInstructionModel 80000068(1/34): BL #0x80000034 -> B #0x80000034 serial_puts + 24 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:38
+TransientSingleBitFlipInstructionModel 8000035C(2/5): LDR r3, [fp, #-8] -> LDR r3, [fp, #-0] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C(2/5): LDR r3, [fp, #-8] -> LDR r3, [fp, -r8] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C(3/5): LDR r3, [fp, #-8] -> LDR r3, [fp, #-0] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C(3/5): LDR r3, [fp, #-8] -> LDR r3, [fp, -r8] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C(4/5): LDR r3, [fp, #-8] -> LDR r3, [fp, #-0] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C(4/5): LDR r3, [fp, #-8] -> LDR r3, [fp, -r8] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C: LDR r3, [fp, #-8] -> LDR r3, [fp, #-0] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 8000035C: LDR r3, [fp, #-8] -> LDR r3, [fp, -r8] otp_read32 + 48 C:\Users\micro\source\repos\FiSim\Content\Example\src\otp.c:37
+TransientSingleBitFlipInstructionModel 800012B0: SUB r1, fp, #0xc0 -> SUB r1, fp, #0xc2 bl1_entry + 68 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:36
+TransientSingleBitFlipInstructionModel 800012B0: SUB r1, fp, #0xc0 -> SUB r1, fp, #0xc4 bl1_entry + 68 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:36
+TransientSingleBitFlipInstructionModel 80001260: ADD sp, fp, #0 -> STR sp, [fp], r0 flash_load_img + 16 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientSingleBitFlipInstructionModel 80001264: POP {fp} -> POP {sl} flash_load_img + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientSingleBitFlipInstructionModel 80001264: POP {fp} -> POP {sb} flash_load_img + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientSingleBitFlipInstructionModel 80001264: POP {fp} -> POP {r3} flash_load_img + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientSingleBitFlipInstructionModel 80001264: POP {fp} -> STR fp, [sp], #4 flash_load_img + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientSingleBitFlipInstructionModel 80001264: POP {fp} -> <invalid instruction> flash_load_img + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientSingleBitFlipInstructionModel 80001264: POP {fp} -> POPGT {fp} flash_load_img + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientSingleBitFlipInstructionModel 80001264: POP {fp} -> POPVS {fp} flash_load_img + 20 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:8
+TransientSingleBitFlipInstructionModel 80000494: ADD sp, fp, #0 -> STR sp, [fp], r0 MD5_Init + 60 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientSingleBitFlipInstructionModel 80000498: POP {fp} -> POP {sl} MD5_Init + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientSingleBitFlipInstructionModel 80000498: POP {fp} -> POP {sb} MD5_Init + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientSingleBitFlipInstructionModel 80000498: POP {fp} -> POP {r3} MD5_Init + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientSingleBitFlipInstructionModel 80000498: POP {fp} -> STR fp, [sp], #4 MD5_Init + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientSingleBitFlipInstructionModel 80000498: POP {fp} -> <invalid instruction> MD5_Init + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientSingleBitFlipInstructionModel 80000498: POP {fp} -> POPGT {fp} MD5_Init + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientSingleBitFlipInstructionModel 80000498: POP {fp} -> POPVS {fp} MD5_Init + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:216
+TransientSingleBitFlipInstructionModel 800012C4: LDR r2, [fp, #-0xc0] -> LDR r2, [fp, #-0xc0]! bl1_entry + 88 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:39
+TransientSingleBitFlipInstructionModel 800011B4: BEQ #0x800011f8 -> BEQ #0x80001238 MD5_Update + 64 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:230
+TransientSingleBitFlipInstructionModel 80001210: POP {r4, r5, r6, r7, r8, sb, fp, lr} -> LDM pc!, {r4, r5, r6, r7, r8, sb, fp, lr} MD5_Update + 156 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:250
+TransientSingleBitFlipInstructionModel 80000178: ADD r3, r0, #4 -> ADD fp, r0, #4 memcpy + 8 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:19
+TransientSingleBitFlipInstructionModel 800001C8: BEQ #0x800002b0 -> BEQ #0x800012b0 memcpy + 88 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:15
+TransientSingleBitFlipInstructionModel 800012D0: MOV r1, r4 -> MOV r1, r6 bl1_entry + 100 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:40
+TransientSingleBitFlipInstructionModel 80000FF8: PUSH {r4, r5, r6, r7, fp, lr} -> LDMDB sp!, {r4, r5, r6, r7, fp, lr} MD5_Final + 0 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:259
+TransientSingleBitFlipInstructionModel 80001060: BL #0x8000007c -> B #0x8000007c MD5_Final + 104 C:\Users\micro\source\repos\FiSim\Content\Example\src\md5.c:275
+TransientSingleBitFlipInstructionModel 800012DC: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0xc3] bl1_entry + 112 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012DC: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x81] bl1_entry + 112 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012DC: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x41] bl1_entry + 112 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012DC: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x1c1] bl1_entry + 112 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012DC: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x2c1] bl1_entry + 112 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012DC: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x4c1] bl1_entry + 112 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012DC: LDRB r3, [fp, #-0xc1] -> LDRB r3, [fp, #-0x8c1] bl1_entry + 112 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E0: CMP r3, #0 -> CMP r3, #1 bl1_entry + 116 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E0: CMP r3, #0 -> CMP r1, #0 bl1_entry + 116 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E0: CMP r3, #0 -> CMP r7, #0 bl1_entry + 116 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E0: CMP r3, #0 -> MOVT r0, #0x3000 bl1_entry + 116 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E0: CMP r3, #0 -> TST r3, #0 bl1_entry + 116 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E0: CMP r3, #0 -> CMPGT r3, #0 bl1_entry + 116 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E0: CMP r3, #0 -> CMPVS r3, #0 bl1_entry + 116 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E4: BNE #0x800012f8 -> BNE #0x800012f4 bl1_entry + 120 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E4: BNE #0x800012f8 -> BNE #0x800012f0 bl1_entry + 120 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E4: BNE #0x800012f8 -> STMDANE r0, {r0, r1} bl1_entry + 120 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E4: BNE #0x800012f8 -> ANDNE r0, r0, #3 bl1_entry + 120 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E4: BNE #0x800012f8 -> BEQ #0x800012f8 bl1_entry + 120 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E4: BNE #0x800012f8 -> BLO #0x800012f8 bl1_entry + 120 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012E4: BNE #0x800012f8 -> BLS #0x800012f8 bl1_entry + 120 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800012FC: MOV r0, r5 -> MOV r0, r1 bl1_entry + 144 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 80001300: MOV r2, #0x10 -> MOV r2, #0 bl1_entry + 148 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 80001300: MOV r2, #0x10 -> LSL r2, r0, r0 bl1_entry + 148 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 80001304: BL #0x800002d8 -> BL #0x800012d8 bl1_entry + 152 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 800002DC: ADD r2, r1, r2 -> ADD r2, r1, sl memcmp + 4 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:3
+TransientSingleBitFlipInstructionModel 800002DC: ADD r2, r1, r2 -> ADD r2, r1, r2, lsl r0 memcmp + 4 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:3
+TransientSingleBitFlipInstructionModel 800002DC: ADD r2, r1, r2 -> ADD r2, r1, r2, lsr #32 memcmp + 4 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:3
+TransientSingleBitFlipInstructionModel 800002DC: ADD r2, r1, r2 -> ADD r2, r1, r2, asr #32 memcmp + 4 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:3
+TransientSingleBitFlipInstructionModel 800002F8: CMP r1, r2 -> CMP r1, r6 memcmp + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:7
+TransientSingleBitFlipInstructionModel 800002F8: CMP r1, r2 -> CMP r0, r2 memcmp + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:7
+TransientSingleBitFlipInstructionModel 800002F8: CMP r1, r2 -> CMP r5, r2 memcmp + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:7
+TransientSingleBitFlipInstructionModel 800002F8: CMP r1, r2 -> BICS r0, r1, r2 memcmp + 32 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:7
+TransientSingleBitFlipInstructionModel 800002FC: BNE #0x800002e8 -> MRCNE p15, #7, apsr_nzcv, c15, c9, #7 memcmp + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:7
+TransientSingleBitFlipInstructionModel 800002FC: BNE #0x800002e8 -> BEQ #0x800002e8 memcmp + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:7
+TransientSingleBitFlipInstructionModel 800002FC: BNE #0x800002e8 -> BPL #0x800002e8 memcmp + 36 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:7
+TransientSingleBitFlipInstructionModel 800002F4: BNE #0x80000310 -> BNE #0x80000300 memcmp + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:8
+TransientSingleBitFlipInstructionModel 800002F4: BNE #0x80000310 -> BNE #0x80000330 memcmp + 28 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:8
+TransientSingleBitFlipInstructionModel 80000314: MOV r0, #1 -> MOV r0, #0 memcmp + 60 C:\Users\micro\source\repos\FiSim\Content\Example\src\utils.c:9
+TransientSingleBitFlipInstructionModel 80001308: CMP r0, #0 -> CMP r0, #1 bl1_entry + 156 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 80001308: CMP r0, #0 -> CMP r8, #0 bl1_entry + 156 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 80001308: CMP r0, #0 -> TST r0, #0 bl1_entry + 156 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 80001308: CMP r0, #0 -> CMP r0, r0 bl1_entry + 156 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 8000130C: BEQ #0x800012e8 -> BNE #0x800012e8 bl1_entry + 160 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 8000130C: BEQ #0x800012e8 -> BHS #0x800012e8 bl1_entry + 160 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 8000130C: BEQ #0x800012e8 -> BHI #0x800012e8 bl1_entry + 160 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:42
+TransientSingleBitFlipInstructionModel 80001318: BL #0x80000050 -> B #0x80000050 bl1_entry + 172 C:\Users\micro\source\repos\FiSim\Content\Example\src\main.c:43
