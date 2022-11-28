@@ -1,0 +1,352 @@
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000001. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000001
+ >> Updated                     : 0x0000000008000e4e
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 4d3b20152f1718a5fc2eeca51eb27886
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000002. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000002
+ >> Updated                     : 0x0000000008000e4d
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 65d2181dd9ff076b30feff3c9910da1f
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000004. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000004
+ >> Updated                     : 0x0000000008000e4b
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 2eee3a41b0a6b0f734468e0ddd823ad3
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000008. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000008
+ >> Updated                     : 0x0000000008000e47
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : fd7c33ade091744c44940e9f0077aeac
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000010. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000010
+ >> Updated                     : 0x0000000008000e5f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 88789c84b26fd72833b10bd36fbe1340
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000020. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000020
+ >> Updated                     : 0x0000000008000e6f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : c1c29e2068fe1b52d764e522bac1b842
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000040. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000040
+ >> Updated                     : 0x0000000008000e0f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 2c45ea42d60971c93149eb4250e0c821
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000080. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000080
+ >> Updated                     : 0x0000000008000ecf
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 333c88dd35d593ba7ba369531c80cbdc
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000100. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000100
+ >> Updated                     : 0x0000000008000f4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000200. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000200
+ >> Updated                     : 0x0000000008000c4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000400. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000400
+ >> Updated                     : 0x0000000008000a4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000000800. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000000800
+ >> Updated                     : 0x000000000800064f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000001000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000001000
+ >> Updated                     : 0x0000000008001e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000002000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000002000
+ >> Updated                     : 0x0000000008002e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000004000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000004000
+ >> Updated                     : 0x0000000008004e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000008000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000008000
+ >> Updated                     : 0x0000000008008e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000010000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000010000
+ >> Updated                     : 0x0000000008010e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000020000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000020000
+ >> Updated                     : 0x0000000008020e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000040000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000040000
+ >> Updated                     : 0x0000000008040e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000080000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000080000
+ >> Updated                     : 0x0000000008080e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000100000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000100000
+ >> Updated                     : 0x0000000008100e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000200000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000200000
+ >> Updated                     : 0x0000000008200e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000400000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000400000
+ >> Updated                     : 0x0000000008400e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000000800000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000000800000
+ >> Updated                     : 0x0000000008800e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000001000000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000001000000
+ >> Updated                     : 0x0000000009000e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000002000000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000002000000
+ >> Updated                     : 0x000000000a000e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000004000000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000004000000
+ >> Updated                     : 0x000000000c000e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000008000000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000008000000
+ >> Updated                     : 0x0000000000000e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000010000000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000010000000
+ >> Updated                     : 0x0000000018000e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000020000000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000020000000
+ >> Updated                     : 0x0000000028000e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000040000000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000040000000
+ >> Updated                     : 0x0000000048000e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97
+
+
+
+
+##### Starting new run. Address: 0x401fc5. Hit: 128. Lifespan: 0. Instruction: 00003977. Faulting Target: Register[FORCE FAULT]. Reg#: R8. Mask: 0x0000000080000000. Operation: XOR.  ###
+ >> Original register           : 0x0000000008000e4f 
+ >> Mask                        : 0x0000000080000000
+ >> Updated                     : 0x0000000088000e4f
+ >> Run result: reached end address after faulting.
+ >>> Output from address (0x08000fd0) in register (RSI) : 3ad77bb40d7a3660a89ecaf32466ef97
+ >>> Output from address (0x08000fc0) in register (RDI) : 3ad77bb40d7a3660a89ecaf32466ef97

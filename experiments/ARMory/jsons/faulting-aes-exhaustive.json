@@ -1,0 +1,13 @@
+{
+    "binary json filename"      : "experiments/ARMory/jsons/binary-details-paper-aes.json",
+    "mode"                      : "fault",
+    "output directory name"     : "experiments/ARMory/outputs/aes",
+    "threads"                   : "8",
+    "fault model filename"      : "experiments/ARMory/faultmodels/replicating-aes-exhaustive.txt",
+    "checkpoints"               : "yes",
+    "number of checkpoints"     : "100",
+    "equivalents"               : "no",
+    "timeit"                    : "no",
+    "max instructions"          : "6668",
+    "display disassembly"       : "yes"
+}   

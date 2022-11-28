@@ -1,0 +1,82 @@
+Instructions: 4341-5534
+    ###########################
+    #  PERMANENT INSTRUCTION  #
+    ###########################
+    Instruction:
+        Op_codes: ALL
+            Lifespan: 0
+                # Permanent Instruction Bit-Flip
+                Operations: XOR
+                    Masks:0x1<0<16
+                # Permanent Instruction Byte-Clear
+                Operation: AND
+                    Masks: 0xFFFFFF00,0xFFFF00FF, 0xFF00FFFF,0x100FFFFFF
+                #  Permanent Instruction Byte-Set 
+                Operations: OR
+                    Masks:0xFF,0xFF00,0xFF0000, 0xFF000000, 0xFFFFFFFF
+                #  Permanent Instruction Skip
+                Operations: SET
+                    Masks:  0xaff30080, 0xbf00
+
+    ###########################
+    #  Transient INSTRUCTION  #
+    ###########################
+            Lifespan: 1,revert
+
+                # Transient Instruction Bit-Flip
+                Operations: XOR
+                    Masks:0x1<0<16
+
+                # Transient Instruction Byte-Clear
+                Operation: AND
+                    Masks: 0xFFFFFF00,0xFFFF00FF, 0xFF00FFFF,0x00FFFFFF
+
+                #  Transient Instruction Byte-Set 
+                Operations: OR
+                    Masks:0xFF,0xFF00,0xFF0000, 0xFF000000, 0xFFFFFFFF
+
+                #  Transient Instruction Skip (change to NOP)
+                Operations: SET
+                    Masks: 0xaff30080, 0xbf00
+    ###########################
+    #   Transient REGISTER    #
+    ###########################
+    Registers: fp,ip,lr,r0,r1,r2,r3,r4,r6,r8,sb,sl,xpsr
+        Op_codes: ALL
+            Lifespan: 1,revert
+
+                # Transient Instruction Bit-Flip
+                Operations: XOR
+                    Masks:0x1<0<16
+
+                # Transient Instruction Byte-Clear
+                Operation: AND
+                    Masks: 0xFFFFFF00,0xFFFF00FF, 0xFF00FFFF,0x00FFFFFF
+
+                #  Transient Instruction Byte-Set 
+                Operations: OR
+                    Masks:0xFF,0xFF00,0xFF0000, 0xFF000000, 0xFFFFFFFF
+                
+                #  Transient Instruction Clear and Fill
+                Operations: SET
+                    Masks:0x0, 0xFFFFFFFF
+
+    ############################
+    # Until-Overwrite Register #
+    ############################
+            Lifespan: 0
+                # Transient Instruction Bit-Flip
+                Operations: XOR
+                    Masks:0x1<0<16
+
+                # Transient Instruction Byte-Clear
+                Operation: AND
+                    Masks: 0xFFFFFF00,0xFFFF00FF, 0xFF00FFFF,0x00FFFFFF
+
+                #  Transient Instruction Byte-Set 
+                Operations: OR
+                    Masks:0xFF,0xFF00,0xFF0000, 0xFF000000, 0xFFFFFFFF
+                
+                #  Transient Instruction Clear and Fill
+                Operations: SET
+                    Masks:0x0, 0xFFFFFFFF

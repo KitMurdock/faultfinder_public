@@ -1,0 +1,77 @@
+{
+    "comment"           :     "Everything in the comment is not used - other than by the humans",
+    "binary filename"   :     "experiments/archie/bins/example-aes-archie.elf",
+    "unicorn arch"      :     "arm",
+    "unicorn mode"      :     "thumb",
+    "cpu"               :     "CORTEX_M7",
+    "capstone arch"     :     "arm",
+    "capstone mode"     :     "thumb",
+    "memory address"    :     "0x08000000",
+    "memory size"       :     "0x80000",
+    "other memory"      :
+    [
+        {
+            "address"   :   "0x20000000",
+            "size"      :   "0x4000"
+        }  
+    ],
+    "code offset"       :       "0x10000",
+    "stack address"     :       "0x82000000",
+    "stack size"        :       "0x1000",
+    "code start"        :       "0x00dd",
+    "code end"          :       "0x0122",
+    "fault start"       :       "0x106",
+    "fault end"         :       "0x122",
+    "set memory"        : 
+    [
+        {   
+            "type"      :       "address",
+            "format"    :       "hex",
+            "byte array":       "2b7e151628aed2a6abf7158809cf4f3c2b7e151628aed2a6abf7158809cf4f3c00127a0000127a00",
+            "address"   :       "0x20000000"
+        }
+    ],
+    "set registers"   :
+    [
+    ],
+    "outputs"    : 
+    [  
+        {   
+            "comment"       :   "sbox data",
+            "location"      :   "fixed address",
+            "address"       :   "0x20000000",
+            "register"      :   "",
+            "length"        :   "16",
+            "offset"        :   "not used"
+        }
+    ],
+    "skips":
+    [
+        { 
+            "address"       : "0x110",
+            "bytes"         : "4",
+            "comment"       : "gpio_clear"
+        }
+    ],
+    "patches":
+    [
+        { 
+            "address"       :   "0xfe",
+            "byte array"    :   "aff30000",
+            "comment"       :   "gpio_set"
+        },
+        { 
+            "address"       :   "0x118",
+            "byte array"    :   "aff30080",
+            "comment"       :   "send_hex_byte"
+        }
+    ],
+    "hard stops":
+    [
+        { 
+            "address"       : "0x124c"
+        }
+    ],
+    "timeout":"0",
+    "filter results": "no"
+}   

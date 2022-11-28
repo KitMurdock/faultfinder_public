@@ -1,0 +1,13 @@
+{
+    "binary json filename"  : "experiments/FiSim/jsons/binary-details.json",
+    "mode"                  : "fault",
+    "output directory name2" : "stdout",
+    "output directory name" : "experiments/FiSim/output/testpayload-papertiming",
+    "threads"               : "8",
+    "fault model filename"  : "experiments/FiSim/faultmodels/fisim/fisim.txt",
+    "checkpoints"           : "no",
+    "number of checkpoints" : "0",
+    "equivalents"           : "no",
+    "timeit"                : "no",
+    "display disassembly"   : "no"
+}   

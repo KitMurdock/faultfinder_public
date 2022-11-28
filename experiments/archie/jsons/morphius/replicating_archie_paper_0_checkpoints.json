@@ -1,0 +1,14 @@
+{
+    "binary json filename"  : "experiments/archie/jsons/binary-details.json",
+    "mode"                  : "fault",
+    "output directory name2" : "stdout",
+    "output directory name" : "experiments/archie/outputs/morphius/0_checkpoints",
+    "threads"               : "8",
+    "fault model filename"  : "experiments/archie/faultmodels/replicating_archie_arm.txt",
+    "checkpoints"           : "no",
+    "number of checkpoints" : "0",
+    "equivalents"           : "no",
+    "timeit"                : "no",
+    "max instructions"      : "300000",
+    "display disassembly"   : "yes"
+}   

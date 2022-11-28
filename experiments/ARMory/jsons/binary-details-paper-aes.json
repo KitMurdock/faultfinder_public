@@ -1,0 +1,85 @@
+{
+    "binary filename": "experiments/ARMory/bins/ARMory-aes.elf",
+    "unicorn arch"          : "arm",
+    "unicorn mode"          : "MCLASS",
+    "capstone arch"         : "arm",
+    "capstone mode"         : "thumb",
+    "cpu"                   : "CORTEX_M0",
+    "memory address"        : "0x08000",
+    "memory size"           : "0x11000",
+    "other memory"          :
+    [
+        {
+            "address"       : "0x20000",
+            "size"          : "0x20000"
+        } 
+    ],
+
+    "code offset"           :      "0x8000",
+    "stack address original":  "0x80100000",
+    "stack address"         :  "0x00040000",
+    "stack size"            :  "0x00010000",
+    "code start"            :      "0x225",
+    "code end"              :      "0x21e",
+    "fault start"           :      "0x226",
+    "fault end"             :      "0x21e",
+    "set memory"            : 
+    [
+        {   
+            "comment"       : "key",
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "c6237b3273483366ff5c4919ec585562",
+            "address"       : "0x20000"
+        },
+        {   
+            "comment"       : "plaintext",
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "67458b6b69983c6451dcb0744a94e82a",
+            "address"       : "0x20010"
+        }
+    ],
+    "set registers"   :
+    [
+        {
+            "reg"          : "r0",
+            "reg value"    : "0x20000"
+        },
+        {
+            "reg"          : "r1",
+            "reg value"    : "0x20010"
+        }
+    ],
+    "outputs"    : 
+    [  
+        {   
+            "comment"       : "ciphertext or intermediate state",
+            "location"      : "fixed address",
+            "address"       : "0x20010",
+            "register"      : "",
+            "length"        : "16",
+            "offset"        : "not used"
+        }
+    ],
+    "skips":
+    [
+    ],
+    "hard stops":
+    [        { 
+        "comment"       : "report_error",
+        "address"       : "0xd0c"
+    },
+    { 
+        "comment"       : "report_error",
+        "address"       : "0x21e"
+    },
+    { 
+        "comment"       : "report_done_check_flow",
+        "address"       : "0xd4c"
+    }
+
+    ],
+    "timeout":"0",
+    "filter results": "no"
+}   

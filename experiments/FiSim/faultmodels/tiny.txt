@@ -1,0 +1,7 @@
+# Every single possibility.
+Instructions: 47-47
+    Instruction:
+         Op_codes: ALL
+             Lifespan: 2, revert
+                 Operations: XOR
+                     Masks: 0x1

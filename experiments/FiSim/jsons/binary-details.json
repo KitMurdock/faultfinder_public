@@ -1,0 +1,134 @@
+{
+    "binary filename": "experiments/FiSim/bins/fisim.elf",
+    "unicorn arch"          : "arm",
+    "unicorn mode"          : "little endian",
+    "capstone arch"         : "arm",
+    "capstone mode"         : "arm",
+    "cpu"                   : "PXA262",
+    "memory address": "0x080000000",
+    "memory size"   :     "0x20000",
+    "other memory"  :
+    [
+        {
+            "address"   : "0x32000000",
+            "size"      :     "0x1000"
+        } ,
+        {
+            "address"   : "0x12000000",
+            "comment"   : "otpPeripheral",
+            "size"      :     "0x1000"
+        } ,
+        {
+            "address"   : "0x40010800",
+            "size"      :     "0x1000"
+        },
+        {
+            "address"   : "0x40004400",
+            "size"      :     "0x1000"
+        } ,
+        {
+            "address"   : "0xAA01000",
+            "comment"   : "HardwarePeripheral",
+            "size"      :    "0x1000"
+        } ,
+        {
+            "address"   : "0x11000000",
+            "size"      :    "0x1000"
+        } 
+    ],
+    "code offset"   :  "0x54",
+    "stack address" :  "0x80100000",
+    "stack size"    :  "0x00010000",
+    "code start"    :      "0x0000",
+    "code end"      :      "0x132c",
+    "fault start"   :      "0x0000",
+    "fault end"     :      "0x132c",
+    "set memory"    : 
+    [
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array_alt"    : "Test Payload!!!!",
+            "byte array": "!! Pwned boot !!",
+            "address"       : "0x32000000"
+        },
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "02000000",
+            "address"       : "0x12000000",
+            "comment"       : "status|cmd|address|data|imghash"
+        },
+        {   
+            "type"          : "address",
+            "byte array"    : "00000000",
+            "format"        : "hex",
+            "address"       : "0x12000004",
+            "comment"       : "status|cmd|address|data|imghash"
+        },
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "00000000",
+            "address"       : "0x12000008",
+            "comment"       : "status|cmd|address|data|imghash"
+        },{   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "0000020000",
+            "address"       : "0x1200000c",
+            "comment"       : "status|cmd|address|data|imghash"
+        },
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "726744C0807DA582D5EAB0F7FA68D18B",
+            "address"       : "0x12000020",
+            "comment"       : "status|cmd|address|data|imghash"
+        }  
+    ],
+    "set registers"   :
+    [
+    ],
+    "outputs"    : 
+    [  
+        {   
+            "location"      : "fixed address",
+            "address"       : "0xAA01000",
+            "register"      : "",
+            "length"        : "1",
+            "offset"        : "not used"
+        }
+    ],
+    "skips":
+    [
+        { 
+            "address"       : "0x12a4",
+            "bytes"         : "4",
+            "comment"       : "serial puts"
+        },
+        { 
+            "address"       : "0x12f0",
+            "bytes"         : "4",
+            "comment"       : "serial puts"
+        },
+        { 
+            "address"       : "0x1318",
+            "bytes"         : "4",
+            "comment"       : "serial puts"
+        },
+        { 
+            "address"       : "0x12ac",
+            "bytes"         : "4",
+            "comment"       : "otp_get_img_hash"
+        }
+    ],
+    "hard stops":
+    [
+        { 
+            "address"       : "0x124c"
+        }
+    ],
+    "timeout":"0",
+    "filter results": "no"
+}   

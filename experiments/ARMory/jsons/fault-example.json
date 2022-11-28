@@ -1,0 +1,14 @@
+{
+    "binary json filename"  : "jsons/ARMory/binary-details-example.json",
+    "mode"                  : "fault",
+    "output directory name" : "output/ARMory/morphius/ARMory",
+    "output directory name2" : "stdout",
+    "threads"               : "1",
+    "fault model filename"  : "faultmodels/ARMory/small.txt",
+    "checkpoints"           : "no",
+    "number of checkpoints" : "notused",
+    "equivalents"           : "no",
+    "timeit"                : "no",
+    "max instructions"      : "0",
+    "display disassembly"   : "yes"
+}   

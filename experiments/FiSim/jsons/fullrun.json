@@ -1,0 +1,13 @@
+{
+    "binary json filename"  : "jsons/fisim/binary-details.json",
+    "mode"                  : "goldenrun_full",
+    "output directory name" : "notused",
+    "threads"               : "notused",
+    "fault model filename"  : "notused",
+    "checkpoints"           : "notused",
+    "number of checkpoints" : "notused",
+    "equivalents"           : "no",
+    "timeit"                : "no",
+    "display disassembly"   : "no"
+
+}   

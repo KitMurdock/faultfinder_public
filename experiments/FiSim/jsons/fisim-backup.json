@@ -1,0 +1,190 @@
+{
+    "binary filename": "/home/kit/unicorn-work/FiSim/bl1.elf",
+    "arch":"arm",
+    "mode":"arm",
+    "memory address": "0x08000000",
+    "memory size"   :    "0x20000",
+    "other memory"  :
+    [
+        {
+            "address"   : "0x32000000",
+            "size"      :     "0x1000"
+        } ,
+        {
+            "address"   : "0x12000000",
+            "comment"   : "otpPeripheral",
+            "size"      :     "0x1000"
+        } ,
+        {
+            "address"   : "0x40010800",
+            "size"      :     "0x1000"
+        },
+        {
+            "address"   : "0x40004400",
+            "size"      :     "0x1000"
+        } ,
+        {
+            "address"   : "0xAA01000",
+            "comment"   : "HardwarePeripheral",
+            "size"      :    "0x1000"
+        } ,
+        {
+            "address"   : "0x11000000",
+            "size"      :    "0x1000"
+        } 
+    ],
+    "code offset"   :  "0x54",
+    "stack address" :  "0x80100000",
+    "stack size"    :  "0x00010000",
+    "code start"    :      "0x126c",
+    "code end"      :      "0x132c",
+    "fault start"   :      "0x126c",
+    "fault end"     :      "0x132c",
+    "set memory"    : 
+    [
+        {   
+            "type"          : "address",
+            "format"        : "ascii",
+            "byte array"    : "Test Payload!!!!",
+            "address"       : "0x32000000",
+            "info"          : "status"
+        },
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "02000000",
+            "address"       : "0x12000000",
+            "info"          : "status"
+        },
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "00000000",
+            "address"       : "0x12000004",
+            "info"          : "cmd"
+        },
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "00000000",
+            "address"       : "0x12000008",
+            "info"          : "address"
+        },
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "12345678",
+            "address"       : "0x1200000c",
+            "info"          : "data"
+        },
+        {   
+            "type"          : "address",
+            "format"        : "hex",
+            "byte array"    : "726744C0807DA582D5EAB0F7FA68D18B",
+            "address"       : "0x12000010"
+        }
+    ],
+    "set registers"   :
+    [
+    ],
+    "outputs"    : 
+    [  
+        {   
+            "location"      : "fixed address",
+            "address"       : "0xAA01000",
+            "register"      : "",
+            "length"        : "1",
+            "offset"        : "not used"
+        }, 
+        {   
+            "location"      : "fixed address",
+            "address"       : "0x32000000",
+            "register"      : "",
+            "length"        : "16",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "register",
+            "register"      : "3",
+            "length"        : "1",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "address in register",
+            "register"      : "13",
+            "length"        : "1",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "register",
+            "register"      : "0",
+            "length"        : "not used",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "register",
+            "register"      : "1",
+            "length"        : "not used",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "register",
+            "register"      : "2",
+            "length"        : "not used",
+            "offset"        : "not used"
+        }, 
+        {   
+            "location"      : "register",
+            "register"      : "5",
+            "length"        : "not used",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "address in register",
+            "register"      : "0",
+            "length"        : "16",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "address in register",
+            "register"      : "1",
+            "length"        : "16",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "address in register",
+            "register"      : "5",
+            "length"        : "16",
+            "offset"        : "not used"
+        },
+        {   
+            "location"      : "address in register",
+            "register"      : "13",
+            "length"        : "16",
+            "offset"        : "not used"
+        }
+    ],
+    "skips":
+    [
+        { 
+            "address"       : "0x12a4",
+            "bytes"         : "4"
+        },
+        { 
+            "address"       : "0x12f0",
+            "bytes"         : "4"
+        },
+        { 
+            "address"       : "0x1318",
+            "bytes"         : "4"
+        }
+    ],
+    "hard stops":
+    [
+        { 
+            "address"       : "0x124c"
+        }
+    ],
+    "timeout":"3000000",
+    "filter results": "no"
+}   

@@ -1,0 +1,11 @@
+# Every single possibility.
+Instructions: 1-1299
+  Instruction Pointer: 
+      Op_codes: ALL
+          Lifespan: 0
+              Operation: SKIP
+  Instruction:
+        Op_codes: ALL
+            Lifespan: 1, revert
+                Operations: XOR
+                    Masks: 1<0<32
