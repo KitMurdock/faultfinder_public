@@ -1,5 +1,5 @@
 # FaultFinder
-Welcome to FaultFinder - a working, anonymised version.
+Welcome to FaultFinder.
 
 # Requirements:
 * [json-c](https://github.com/json-c/json-c)
