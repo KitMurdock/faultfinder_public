@@ -3,7 +3,7 @@ Welcome to FaultFinder - a working, anonymised version.
 
 # Requirements:
 * [json-c](https://github.com/json-c/json-c)
-* [Unicorn engine](https://www.unicorn-engine.org/) - dev branch
+* [Unicorn engine](https://www.unicorn-engine.org/) 
 * [Capstone](https://www.capstone-engine.org/)
 
 
